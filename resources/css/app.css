@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-hover {
+    box-shadow: 10px 18px 23px -9px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: 10px 18px 23px -9px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 10px 18px 23px -9px rgba(0, 0, 0, 0.37);
+}
